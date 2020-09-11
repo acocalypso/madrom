@@ -35,9 +35,16 @@ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -X
 
 Now you need to replace the uboot chain with the original one (x96 / a95)
 
-Unpack the stock rom with AML Tool 6.0.0 (Only Level 1)
-Unpack the madrom to level 1 (keep aml tools open !)
-Move _aml_dtb.PARTITION, aml_sdc_burn.UBOOT, bootloader.PARTITION, DDR.USB, UBOOT.USB from Stock to madrom.
-Repack madrom
+- Unpack the stock rom with AML Tool 6.0.0 (Only Level 1)
+- Unpack the madrom to level 1 (keep aml tools open !)
+- Move _aml_dtb.PARTITION, aml_sdc_burn.UBOOT, bootloader.PARTITION, DDR.USB, UBOOT.USB from Stock to madrom.
+- Inject TWRP
+- Repack madrom
+
+ToDo:
+- add Wifi
+- polish readme
+- otaupdate???
+- include twrp in build chain
 
 
