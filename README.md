@@ -66,6 +66,6 @@ ToDo:
 - add Wifi
 - polish readme
 - otaupdate???
-- add special uboot files for madrom to git
+- add special s912 uboot files for madrom to git
 
 
