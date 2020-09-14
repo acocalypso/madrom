@@ -91,3 +91,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 include device/khadas/common/sepolicy.mk
 include device/khadas/common/gpu/t82x-user-$(TARGET_ARCH).mk
 #MALLOC_IMPL := dlmalloc
+
+#TWRP
+TW_THEME := landscape_hdpi
+TW_NO_BATT_PERCENT := true
+TW_USE_TOOLBOX := true
+TW_EXFAT_FUSE := true
