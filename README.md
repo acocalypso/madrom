@@ -54,7 +54,7 @@ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -X
 ./prebuilts/sdk/tools/jack-admin start-server
 ```
 
-Now you need to replace the uboot chain with the original one (x96 / a95)
+Now you need to replace the uboot chain with the original one (x96 / a95 / tx9s)
 
 - Unpack the stock rom with AML Tool 6.0.0 (Only Level 1)
 - Unpack the madrom to level 1 (keep aml tools open !)
@@ -67,5 +67,6 @@ ToDo:
 - polish readme
 - otaupdate???
 - add kernel changes for s912
+- add special uboot files for madrom to git
 
 
