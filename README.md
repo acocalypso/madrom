@@ -1,4 +1,4 @@
-# madrom-s905w
+# madrom
 
 This repo contains modifications of Khadas source for amlogic s905w (mainly a95x f1 and x96 mini).
 
