@@ -66,6 +66,6 @@ ToDo:
 - add Wifi
 - polish readme
 - otaupdate???
-- include twrp in build chain
+- add kernel changes for s912
 
 
