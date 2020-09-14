@@ -12,21 +12,37 @@ clone khadas repo:
 repo sync -j4
 ```
 
-Build uboot:
+clone this repo and override khadas source
+
+s905w Build uboot:
 ```
 export PATH=$PATH:/opt/toolchains/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf/bin/
 make CROSS_COMPILE=aarch64-elf- gxl_p281_v1_defconfig
 make CROSS_COMPILE=aarch64-elf-
 ```
 
-clone this repo and override khadas source
+s912 Build uboot:
+```
+export PATH=$PATH:/opt/toolchains/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf/bin/
+make CROSS_COMPILE=aarch64-elf- gxb_p201_v1_defconfig
+make CROSS_COMPILE=aarch64-elf-
+```
 
-build madrom
+build madrom s905w
 
 ```
 export LC_ALL=C // needed in case of segfault issue
 source build/envsetup.sh
 lunch 9 (userdebug-64)
+make -j4 otapackage
+```
+
+build madrom s905w
+
+```
+export LC_ALL=C // needed in case of segfault issue
+source build/envsetup.sh
+lunch 12 (userdebug-64)
 make -j4 otapackage
 ```
 
