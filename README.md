@@ -8,7 +8,8 @@ Build Tools -> linaro (gcc 4.9.4)
 
 clone khadas repo:
 
-```repo init --depth=1 -u https://github.com/khadas/android_manifest.git -b Nougat
+```
+repo init --depth=1 -u https://github.com/khadas/android_manifest.git -b Nougat
 repo sync -j4
 ```
 
