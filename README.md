@@ -65,7 +65,7 @@ Now you need to replace the uboot chain with the original one (x96 / a95 / tx9s)
 
 ToDo:
 - add Wifi
-- polish readme
+- make readme more pretty
 - otaupdate???
 - add special s912 uboot files for madrom to git
 
