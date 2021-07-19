@@ -38,7 +38,7 @@ lunch 9 (userdebug-64)
 make -j4 otapackage
 ```
 
-build madrom s905w
+build madrom s912
 
 ```
 export LC_ALL=C // needed in case of segfault issue
